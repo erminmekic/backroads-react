@@ -6,7 +6,10 @@ const About = () => {
     <section className='section' id='about'>
       <Title text='about' highlightedText='us' />
 
-      <div className='section-center about-center'>
+      <div
+        className='section-center about-center'
+        style={{ backgroundColor: '#C6FFF5' }}
+      >
         <div className='about-img'>
           <img src={aboutImg} className='about-photo' alt='awesome beach' />
         </div>
